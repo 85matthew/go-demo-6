@@ -1,5 +1,6 @@
 SHELL := /bin/bash
 GO := GO15VENDOREXPERIMENT=1 go
+VERSION := 2.0.0
 NAME := go-demo-6
 OS := $(shell uname)
 MAIN_GO := main.go
