@@ -12,7 +12,7 @@ pipelineConfig:
         # This is new
         - name: rollout
           command: |
-            NS=`echo "jx-$REPO_OWNER-go-demo-6-$BRANCH_NAME" | tr '[:upper:]' '[:lower:]'`
+            NS=`echo "jx-matthew-go-demo-6-$BRANCH_NAME" | tr '[:upper:]' '[:lower:]'`
             sleep 15
             kubectl -n $NS rollout status deployment preview-preview --timeout 3m
         # This was modified
